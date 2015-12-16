@@ -1,0 +1,22 @@
+﻿<Page
+    x:Class="MsgGenerator.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:MsgGenerator"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid Background="#FF6E3D0A">
+        <TextBlock HorizontalAlignment="Left" Height="74" Margin="79,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="256" FontSize="36" Foreground="Black">
+        	<Run Foreground="#FFF5F7F9" FontStyle="Italic" FontSize="33" FontFamily="Kristen ITC" Text="Tips "/>
+        	<Run Foreground="#FF122F4B" FontStyle="Italic" FontSize="33" FontFamily="Malgun Gothic" Text="of "/>
+        	<Run Foreground="#FF337FCB" FontStyle="Italic" FontSize="33" FontFamily="Kristen ITC" Text="the "/>
+        	<Run Foreground="#FFEEF1A2" FontSize="33" FontFamily="Arial" Text="Day"/>
+        </TextBlock>
+        <TextBox x:ConnectionId='1' x:Name="TextBox1" HorizontalAlignment="Left" Height="266" Margin="49,129,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="316" Foreground="#FFAE2D2D" Background="White" IsReadOnly="True"                                    />
+        <Button x:ConnectionId='2' x:Name="Boton" Content="Generate a Message!!!" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="49,447,0,0" BorderBrush="#FF060000" Background="#FFF1EFEF" Foreground="#FF0C0101" Height="137" Width="316"                      />
+    </Grid>
+</Page>
+
